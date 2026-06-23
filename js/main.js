@@ -33,7 +33,7 @@
         '.hero-intro, .hero-h, .hero-lede, .hero-meta, .hero-easter, .hero-cta, .hero-links, ' +
         '.status-block, ' +
         '.sec-intro, ' +
-        '.prose, .exp-item, .work-item, .skill-row, .edu-item, ' +
+        '.prose, .exp-item, .work-item, .skill-row, .cert, .edu-item, ' +
         '.contact-h, .contact-sub, .contact-email, .contact-links'
     );
     revealEls.forEach((el, i) => {
