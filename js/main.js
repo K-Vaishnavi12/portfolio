@@ -2,6 +2,12 @@
    KATULA VAISHNAVI — PORTFOLIO JS
    ============================================================ */
 
+/* Prevent browser scroll-restoration from jumping mid-page on load */
+if ('scrollRestoration' in history) {
+    history.scrollRestoration = 'manual';
+}
+window.scrollTo(0, 0);
+
 (function () {
     'use strict';
 
